@@ -32,5 +32,11 @@
 <img width="700" alt="Screenshot 2024-08-10 025927" src="https://github.com/user-attachments/assets/02b0f3a3-f9b6-402f-b36b-327fdd41571a">
 
 
+# Features
+* Students can fill out college admission form
+* They can know about the college campus and the facilities offered by the college.
+* Students can check their fees using this website
+
+
 
 
