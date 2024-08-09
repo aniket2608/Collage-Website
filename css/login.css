@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    ;
+}
+
+body {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(/images/image5.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-size: 14px;
+    color: black;
+
+}
+
+
+.logo3 {
+    display: flex;
+    width: 120px;
+    margin-right: 60px;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.navbar {
+    max-width: 100%;
+    display: flex;
+    padding: 5px 20px;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    background-color: rgb(162, 45, 53);
+    margin-bottom: 80px;
+    z-index: 10;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+.navbar li {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    margin-left: 20px;
+
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Website Scrollerbar */
+body::-webkit-scrollbar {
+    width: 5px !important;
+    height: 5px !important;
+}
+
+body::-webkit-scrollbar-track {
+    background: #3838387c !important;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #e0120ba4 !important;
+    border: 1px solid #ff020279 !important;
+    border-radius: 1px !important;
+}
+
+
+.wrapper {
+    width: 90%;
+    padding: 0 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+   margin: auto;
+}
+
+.r_form_wrap {
+    width: 350px;
+    max-width: 100%;
+}
+
+.r_form_wrap .title {
+    padding: 25px;
+    background: #f1f1f1;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+}
+
+.r_form_wrap .title p {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+
+#header_fees {
+    font-family: bold;
+}
+
+
+/* Login Buttons */
+
+.l-button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.l-button button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(162, 45, 53);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.l-button button:hover {
+    background-color: #800303;
+}
+
+/* Login Section Styling */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+   
+}
+
+.s-login,
+.t-login {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+    
+}
+
+.s-login h3,
+.t-login h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(162, 45, 53);
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+
+
+
+/* Form Styling */
+.l-content label {
+    display: block;
+    margin-bottom: 5px;
+   
+}
+
+.l-content input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.l-content button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(162, 45, 53);
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 65px;
+   
+}
+
+.l-content button:hover {
+    background-color: #800303;
+}

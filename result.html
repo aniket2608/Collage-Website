@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+
+<link rel="stylesheet" href="css/fees_page.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<title>D Y Patil University</title>
+<link rel="shortcut icon" href="images/logo2.ico" type="image/svg+xml">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="javascript/index.js"></script>
+<style>
+  .title {
+    display: flex;
+    width: 35%;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 415px;
+    background: white;
+    border-radius: 3px;
+    margin-bottom: 20px;
+
+}
+ .title p {
+   font-size: 25px;
+    text-align: center;
+    
+}
+
+
+input,select{
+  border:2px solid rgba(163, 4, 4, 0.513);
+  
+}
+
+.button{
+  background-color:rgb(162, 45, 53) ;
+  width:30%;
+  margin-top:10px;
+}
+
+.button:hover{
+  background-color:#800303  ;
+}
+
+</style>
+
+</head>
+
+<body>
+  <section>
+    <nav class="navbar">
+      <span style="margin-left: 0px;"><img src="images/logo1.png" alt="" class="logo3"
+          style=" margin-left: 0px;"></span>
+      <ul>
+        <li><a href="index.html" style="margin-left: 650px;">Home</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+ 
+
+  <div class="title">
+    <p id="header_fees">Students Online Result</p>
+  </div>
+  <form id="marks-form" onsubmit="return validateForm()"
+    class="max-w-md mx-auto bg-white rounded-lg shadow-md px-6 py-8">
+    <div class="mb-4">
+      <label class="block mb-2" for="rollno">Roll Number:</label>
+      <input type="text" id="rollno" name="rollno" placeholder="Enter your Roll Number"
+        class="w-full   rounded px-3 py-2" required>
+    </div>
+    <div class="mb-4">
+      <label class="block mb-2" for="mothername">Mother's Name:</label>
+      <input type="text" id="mothername" name="mothername" placeholder="Enter your Mother's Name"
+        class="w-full   rounded px-3 py-2" required>
+    </div>
+    <div class="mb-4">
+      <label class="block mb-2">Year:</label>
+      <div class="space-x-4">
+        
+        <input type="radio" id="second-year" name="year" value="second-year" onclick="showSemesterOptions()"
+          class="mr-2">     
+        <label for="second-year">Second Year</label>
+        <input type="radio" id="third-year" name="year" value="third-year" onclick="showSemesterOptions()" class="mr-2">
+        <label for="third-year">Third Year</label>
+        <input type="radio" id="fourth-year" name="year" value="fourth-year" onclick="showSemesterOptions()"
+          class="mr-2">
+        <label for="fourth-year">Fourth Year</label>
+      </div>
+    </div>
+    <div class="mb-4">
+      <label class="block mb-2" for="semester">Semester:</label>
+      <select id="semester" name="semester" class="w-full  rounded px-3 py-2">
+        <option id="third-sem" value="third-sem" class="">Third Semester</option>
+        <option id="fourth-sem" value="fourth-sem" class="">Fourth Semester</option>
+        <option id="fifth-sem" value="fifth-sem" class="">Fifth Semester</option>
+        <option id="sixth-sem" value="sixth-sem" class="">Sixth Semester</option>
+        <option id="seventh-sem" value="seventh-sem" class="">Seventh Semester</option>
+        <option id="eighth-sem" value="eighth-sem" class="">Eighth Semester</option>
+      </select>
+    </div>
+    <div class="mb-4">
+      <label class="block mb-2" for="testtype">Test Type:</label>
+      <div class="relative">
+        <select id="testtype" name="testtype" class="w-full   rounded px-3 py-2">
+          <option value="unit1">Unit Test </option>
+          <option value="insem">Midsem</option>
+          <option value="insem">End-Semester</option>
+        </select>
+
+      </div>
+    </div>
+    <div style="text-align: center;">
+      <button type="submit" class="  button text-white py-2 px-4 rounded">Submit</button>
+    </div>
+  </form>
+  <div id="marks-display" class="mt-8"></div>
+  </div>
+</section>
+  <script src="script.js"></script>
+</body>
+
+</html>

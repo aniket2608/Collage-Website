@@ -1,0 +1,143 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 5px !important;
+  height: 5px !important;
+}
+body::-webkit-scrollbar-track {
+  background: #3838387c !important;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #e0120ba4 !important;
+  border: 1px solid #ff020279 !important;
+  border-radius: 1px !important;
+} 
+
+.navbar {
+    max-width: 100%;
+    display: flex;
+    padding: 5px 20px;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    background-color: rgb(162, 45, 53);
+    margin-bottom: 100px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+   
+}
+ .navbar li{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bolder; 
+    margin-left:20px ;
+   
+ }
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+   
+  width: 85%;
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin-left: 70px;
+}
+
+.card img {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-content {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -80px;
+}
+
+.card-content p {
+  line-height: 1.2;
+}
+
+.card-content h1 {
+  margin-top: 0px;
+
+  color:rgb(159, 11, 11);
+
+}
+
+.card-content .quote {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.card-content .quote:before {
+  content: open-quote;
+  font-size: 2em;
+  margin-right: 5px;
+  vertical-align: -0.2em;
+}
+
+.card-content .quote:after {
+  content: close-quote;
+  font-size: 2em;
+  margin-left: 5px;
+  vertical-align: -0.2em;
+}
+
+
+.card-1 {
+    width: 40%;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-content-1 {
+    padding: 20px;
+}
+
+.card-content p {
+    line-height: 1.6;
+}
+
+.card-content-1 h2 {
+    color:rgb(159, 11, 11);
+    margin-top: 0;
+}

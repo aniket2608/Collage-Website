@@ -1,0 +1,102 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Website Scrollerbar */
+body::-webkit-scrollbar {
+    width: 5px !important;
+    height: 5px !important;
+}
+
+body::-webkit-scrollbar-track {
+    background: #3838387c !important;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #e0120ba4 !important;
+    border: 1px solid #ff020279 !important;
+    border-radius: 1px !important;
+}
+
+.navbar {
+    max-width: 100%;
+    display: flex;
+    padding: 5px 20px;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(162, 45, 53);
+    margin-bottom: 50px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+.navbar li {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.document-container h1 {
+    margin-left: 130px;
+
+
+}
+
+.document-container table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    border: 2px solid rgb(171, 3, 3);
+    margin-top: 30px;
+
+
+}
+
+.document-container th,
+td {
+
+    border-left: none;
+    border-right: none;
+}
+
+.document-container th {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(161, 31, 31, 0.902);
+    padding: 20px;
+    color: white;
+    text-align: left;
+}
+
+.document-container td {
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(172, 43, 52, 0.509);
+}
