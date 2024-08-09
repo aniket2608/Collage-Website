@@ -37,6 +37,30 @@
 * They can know about the college campus and the facilities offered by the college.
 * Students can check their fees using this website
 
+# Website-link
+
+https://dypatiluniversitypune.netlify.app/
+
+# Tech Stack
+
+Client: HTML, CSS, JAVASCRIPT
+
+# Feedback
+If you have any feedback, please reach out to us at aniketp0981@gmail.com
+
+# Authors
+* @aniket2608
+
+#Links
+  <a href="https://www.linkedin.com/in/aniket-patil26"  class="linkedin-button" style="background-color: #0077B5; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;">Linkedin</a>
+
 
 
 
