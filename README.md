@@ -49,7 +49,7 @@ Client: HTML, CSS, JAVASCRIPT
 If you have any feedback, please reach out to us at aniketp0981@gmail.com
 
 # Authors
-* @ aniket2608
+@  aniket2608
 
 # Links
 
