@@ -54,6 +54,6 @@ If you have any feedback, please reach out to us at aniketp0981@gmail.com
 # Links
 
 
-<img width="100" alt="Screenshot 2024-08-10 031329" src="https://www.linkedin.com/in/aniket-patil26" >
+<img width="100" alt="Screenshot 2024-08-10 031329" src="https://www.linkedin.com/in/aniket-patil26">
 
 
