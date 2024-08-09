@@ -1,6 +1,8 @@
 ﻿# Collage-Website
  
-Screenshot
+ # Screenshot
+
+
 1)
 <img width="600" alt="Screenshot 2024-08-10 024327" src="https://github.com/user-attachments/assets/4a1c78e5-45ec-468a-8d43-470ab400a1b3">
 
