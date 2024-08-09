@@ -52,15 +52,8 @@ If you have any feedback, please reach out to us at aniketp0981@gmail.com
 * @aniket2608
 
 # Links
-<button> <a href="https://www.linkedin.com/in/aniket-patil26"  class="linkedin-button" style="background-color: #0077B5; 
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 16px;">Linkedin</a>
 
 
+<img width="100" alt="Screenshot 2024-08-10 031329" src="https://www.linkedin.com/in/aniket-patil26" style="cursor:pointer">
 
-</button>
+
