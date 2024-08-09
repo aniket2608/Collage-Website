@@ -49,12 +49,11 @@ Client: HTML, CSS, JAVASCRIPT
 If you have any feedback, please reach out to us at aniketp0981@gmail.com
 
 # Authors
-* @aniket2608
+* @ aniket2608
 
 # Links
 
-
-<a href="https://www.linkedin.com/in/aniket-patil26" ><img width="220" alt="Screenshot 2024-08-10 031329" src="https://github.com/user-attachments/assets/c478f930-ffee-43ce-8303-23f49fde9ed7"></a>
+<a href="https://www.linkedin.com/in/aniket-patil26" ><img width="150" alt="Screenshot 2024-08-10 031329" src="https://github.com/user-attachments/assets/c478f930-ffee-43ce-8303-23f49fde9ed7"></a>
 
 
 
